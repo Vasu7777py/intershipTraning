@@ -1,0 +1,58 @@
+body {
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+}
+/* 
+div {
+    border: 2px solid black;
+    padding: 0.5em 0.5em;
+} */
+
+li {
+    margin: 0.3rem;
+}
+
+textarea {
+    width: 75%;
+}
+
+img {
+    width: 150px;
+}
+
+.Priority {
+    width: 20rem;
+}
+
+.bord-0 {
+    border: 0px;
+    border-bottom: 1px solid #000;
+}
+
+.sheduled {
+    border: 1px solid #000;
+}
+
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.Sheduled {
+    background-color: transparent;
+}
